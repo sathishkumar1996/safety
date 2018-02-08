@@ -1,0 +1,47 @@
+<ion-header>
+    <ion-navbar>
+      <ion-title text-align="center">Settings</ion-title>
+    </ion-navbar>
+  </ion-header>
+      <ion-content padding>
+          <ion-list>
+              <ion-item>
+              <button ion-button full default>Profile settings</button>
+            </ion-item>
+              <ion-item>
+                <ion-label>Send Location</ion-label>
+                <ion-select [(ngModel)]="sendlocation">
+                  <ion-option value="yes">Yes</ion-option>
+                  <ion-option value="no">No</ion-option>
+          </ion-select>
+              </ion-item>
+                 
+              <ion-item>
+                  <ion-label>Voice Record</ion-label>
+                  <ion-select [(ngModel)]="voicerecord">
+                    <ion-option value="yes">Yes</ion-option>
+                    <ion-option value="no">No</ion-option>
+                    </ion-select>
+              </ion-item>
+
+              <ion-item>
+                  <ion-label>Play Siren</ion-label>
+                  <ion-select [(ngModel)]="playsiren">
+                    <ion-option value="yes">Yes</ion-option>
+                    <ion-option value="no">No</ion-option>
+                    </ion-select>
+              </ion-item>
+              <ion-item>
+                  <ion-label>Notification</ion-label>
+                  <ion-select [(ngModel)]="notification">
+                    <ion-option value="yes">Yes</ion-option>
+                    <ion-option value="no">No</ion-option>
+                    </ion-select>
+              </ion-item>
+              <ion-item>
+                <ion-label stacked>Address</ion-label>
+                <ion-input type="text"></ion-input>
+              </ion-item>
+            
+            </ion-list>
+          </ion-content>

@@ -1,0 +1,59 @@
+.icon{
+    width:600px;
+    max-height:100px; 
+    margin:auto;
+  display:block;
+}
+.my-width{
+    width:100px;
+    position:left;
+       left:20%;
+    right:20%;
+       bottom:50%;
+         top:800%;
+}
+.btn-round-button {
+    width: 25%;
+    text-align: center;
+    
+  }
+  .btn-round-button-circle {
+  
+    width:80%;
+    height: 0;
+    text-align:center;
+    padding-bottom: 70%;
+    border-radius: 50%;
+    
+    border: 10px solid #121213;
+    overflow: hidden;
+    background: rgb(245, 8, 8);
+    box-shadow: 0 0 3px rgb(233, 10, 10);
+    margin:auto;
+  display:block;
+  }
+  
+  .btn-round-button-circle:hover {
+    background: #f10808;
+     
+  }
+  
+  .btn-round-button a {
+    display: block;
+    margin:auto;
+    float: right;
+    width: 100%;
+    padding-top: 50%;
+    padding-bottom: 50%;
+    
+    line-height: 1em;
+    margin-top: -0.5em;
+    text-align: center;
+    color: #fdf7fa;
+    font-family: Verdana;
+    font-size: 2.7em;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+
